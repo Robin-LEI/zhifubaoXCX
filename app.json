@@ -1,10 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/details/details"
+    "pages/details/details",
+    "pages/mine/info/info"
   ],
   "window": {
     "defaultTitle": "My App",
-    "allowsBounceVertical": "YES"
+    "allowsBounceVertical": "YES",
+    "titleBarColor": "#ffbfc7"
   }
 }
