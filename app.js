@@ -1,4 +1,5 @@
 App({
+  name: '支付宝',
   onLaunch(options) {
     // 第一次打开
     // options.query == {number:1}

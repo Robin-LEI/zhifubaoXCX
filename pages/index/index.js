@@ -1,3 +1,5 @@
+const app = getApp();
+
 Page({
   data() {
     return {
@@ -11,6 +13,7 @@ Page({
   onReady() {
     // 页面加载完成
     console.log('onReady')
+    console.log(app.name)
   },
   onShow() {
     // 页面显示

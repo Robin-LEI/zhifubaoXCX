@@ -35,3 +35,7 @@
 3. 触底 onReachBottom() {}
 4. 下拉刷新 onPullDownRefresh 需要在.json文件中设置 "pullRefresh": true
 5. 分享 onShareAppMessage
+
+# 全局对象与全局样式
+1. getApp() 获取app.js中定义的全局对象、全局变量、自定义方法等
+
