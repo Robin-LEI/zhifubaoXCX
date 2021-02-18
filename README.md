@@ -49,6 +49,9 @@ window: {
 }
 ```
 
-# 导航栏(选项卡)
-
+# 导航栏(选项卡) tabBar (在app.json中进行配置)
+1. textColor: 文字颜色
+2. selectedColor: 文字选中后的颜色
+3. backgroundColor: 背景颜色
+4. items: [{pagePath: '页面路径', name: '文字', icon: '未选中的icon', activeIcon: '选中的icon'}]
 
