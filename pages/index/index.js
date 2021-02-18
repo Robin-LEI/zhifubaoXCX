@@ -1,4 +1,9 @@
 Page({
+  data() {
+    return {
+      name: 'robin'
+    }
+  },
   onLoad(query) {
     // 页面加载
     console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
@@ -39,4 +44,9 @@ Page({
       path: 'pages/index/index',
     };
   },
+  goDetail() {
+    my.redirectTo({
+      url: "/pages/details/details"
+    });
+  }
 });

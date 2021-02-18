@@ -3,6 +3,11 @@
   this is a blank page-hello test
   <view>
     you
+    {{name}}
+  </view>
+
+  <view onTap="goDetail">
+    go detail
   </view>
 </view>
 

@@ -1,0 +1,6 @@
+<view>
+  details page
+  <view onTap="goHome">
+    go home
+  </view>
+</view>
