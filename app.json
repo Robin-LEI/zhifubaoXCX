@@ -4,6 +4,7 @@
     "pages/details/details"
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "My App",
+    "allowsBounceVertical": "YES"
   }
 }

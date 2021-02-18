@@ -31,6 +31,8 @@ Page({
   onPullDownRefresh() {
     // 页面被下拉
     console.log('onPullDownRefresh')
+    my.stopPullDownRefresh();
+
   },
   onReachBottom() {
     // 页面被拉到底部
@@ -39,7 +41,7 @@ Page({
   onShareAppMessage() {
     // 返回自定义分享信息
     return {
-      title: 'My App',
+      title: 'hello title',
       desc: 'My App description',
       path: 'pages/index/index',
     };
