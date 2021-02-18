@@ -9,15 +9,12 @@
 
 [开发平台创建小程序](https://open.alipay.com/mini/dev/create)
 
-1. 创建小程序应用
+# 前端商城Id：2021002128610896
 
-前端商城Id：2021002128610896
-
-view 替代 div
-
-app.js 全局的配置文件，必须的
-app.acss 全局的样式文件，可选的
-app.json 项目配置，必须的
+# 全局配置文件
+1. app.js 全局的配置文件，必须的
+2. app.acss 全局的样式文件，可选的
+3. app.json 项目配置，必须的
 
 # 小程序生命周期
 1. onLaunch--初始化完成时执行，只执行一次
@@ -32,9 +29,9 @@ app.json 项目配置，必须的
 4. onHide
 5. onUnload--页面卸载的时候执行
 
-事件
-onTap="tapName"
-标题点击事件 onTitleClick() {}
-触底 onReachBottom() {}
-下拉刷新 onPullDownRefresh 需要在.json文件中设置 "pullRefresh": true
-分享 onShareAppMessage
+# 事件
+1. onTap="tapName"
+2. 标题点击事件 onTitleClick() {}
+3. 触底 onReachBottom() {}
+4. 下拉刷新 onPullDownRefresh 需要在.json文件中设置 "pullRefresh": true
+5. 分享 onShareAppMessage
