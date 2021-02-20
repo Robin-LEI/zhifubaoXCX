@@ -106,3 +106,15 @@ data: {
 
 <view hidden="{{true}}">这里的内容会被隐藏，不会被显示出来</view>
 ```
+
+# 列表渲染
+```js
+data: {
+  arr: [1,2,3]
+}
+<view a:for="{{arr}}" a:for-item="item" a:for-index="index2">{{item + '---' + index2}}</view>
+```
+
+# block
+1. 不会渲染成一个真正的元素
+2. 减少外围元素嵌套层数过多

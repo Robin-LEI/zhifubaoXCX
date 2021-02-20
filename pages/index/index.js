@@ -5,7 +5,8 @@ Page({
     return {
       name: 'robin',
       isShow: false,
-      images: ''
+      images: '',
+      arr: [1,2,3]
     }
   },
   onLoad(query) {

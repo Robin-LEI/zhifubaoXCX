@@ -1,3 +1,4 @@
 <view>
   home page
+  <view a:for="{{arr}}" a:for-item="item" a:for-index="index2">{{item + '---' + index2}}</view>
 </view>
