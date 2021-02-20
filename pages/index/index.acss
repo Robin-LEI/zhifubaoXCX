@@ -1,2 +1,15 @@
 page {
+ position: relative
+}
+
+._customModal {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, .5);
+  padding-top: 66px;
 }

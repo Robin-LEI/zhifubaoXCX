@@ -55,3 +55,54 @@ window: {
 3. backgroundColor: 背景颜色
 4. items: [{pagePath: '页面路径', name: '文字', icon: '未选中的icon', activeIcon: '选中的icon'}]
 
+# navigator
+1. hover-class="手指按下去"
+2. hover-start-time="按住多少ms出现点击状态"
+3. hover-stay-time="手指释放多少ms后恢复到原始状态"
+4. url="/pages/xxx/xxx"
+5. open-type
+  - navigate值(默认值)为保留(隐藏)当前页面，把新的页面展示
+  - 值为redirect，销毁当前页面，跳转到新页面，不能在返回到前一页面
+  - navigateBack可以返回前一页面，redirect不能使用navigateBack
+  - switchTab 跳转到tabBar页面
+
+# 导航api
+1. my.navigateTo
+2. my.redirectTo
+3. my.navigateBack 不需要设置url
+4. my.switchTab
+
+# 数据绑定
+```js
+data: {
+  value: 'xxx',
+  form: {
+    name: '',
+    age: '',
+    hobby: []
+  }
+}
+
+```
+
+```axml
+<view>{{value}}</view>
+<view>{{form.name}}</view>
+```
+
+# 条件渲染
+```js
+data: {
+  flag: true,
+  age: 1
+}
+```
+```axml
+<view a:if="{{flag}}"></view>
+
+<view a:if="{{age > 1 && age < 3>}}"></view>
+<view a:elif="{{age > 4 && age < 8 }}"></view>
+<view a:else></view>
+
+<view hidden="{{true}}">这里的内容会被隐藏，不会被显示出来</view>
+```

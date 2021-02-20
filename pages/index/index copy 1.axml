@@ -1,0 +1,19 @@
+
+<view>
+  <button type="primary" onTap="clickMe">点击我</button>
+
+  <view class="_customModal" style="display: {{isShow ? 'block' : 'none'}}">
+    <canvas 
+      id="canvas"
+      width="610"
+      height="800"
+      class="canvas"
+      onTouchStart="log"
+      onTouchMove="log"
+      onTouchEnd="log"
+    />
+    <button type="primary" onTap="clickClose">关闭</button>
+    <button type="primary" onTap="clickSave">保存图片</button>
+  </view>
+</view>
+
