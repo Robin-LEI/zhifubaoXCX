@@ -118,3 +118,17 @@ data: {
 # block
 1. 不会渲染成一个真正的元素
 2. 减少外围元素嵌套层数过多
+
+# 事件
+1. tap
+> 点击
+2. longTap
+> 长按点击事件
+3. touchStart
+> 开始触摸
+4. touchMove
+> 触摸后移动
+5. touchEnd
+> 人为结束，触摸结束
+6. touchCancel
+> 系统打断，比如来电
