@@ -21,32 +21,26 @@
       {
         "pagePath": "pages/index/index",
         "name": "首页",
-        "icon": "resources/icons/home.png",
-        "activeIcon": "resources/icons/home-selected.png"
+        "icon": "resources/icons/index.png",
+        "activeIcon": "resources/icons/index-sel.png"
       },
       {
         "pagePath": "pages/category/category",
         "name": "分类",
         "icon": "resources/icons/category.png",
-        "activeIcon": "resources/icons/category-selected.png"
+        "activeIcon": "resources/icons/category-sel.png"
       },
       {
         "pagePath": "pages/cart/cart",
         "name": "购物车",
-        "icon": "resources/icons/rewards.png",
-        "activeIcon": "resources/icons/rewards-selected.png"
-      },
-      {
-        "pagePath": "pages/order/order",
-        "name": "订单",
-        "icon": "resources/icons/loyalty.png",
-        "activeIcon": "resources/icons/loyalty-selected.png"
+        "icon": "resources/icons/shopping-car.png",
+        "activeIcon": "resources/icons/shopping-car-sel.png"
       },
       {
         "pagePath": "pages/mine/info/info",
         "name": "我的",
-        "icon": "resources/icons/transaction.png",
-        "activeIcon": "resources/icons/transaction-selected.png"
+        "icon": "resources/icons/mine.png",
+        "activeIcon": "resources/icons/mine-sel.png"
       }
     ]
   }
