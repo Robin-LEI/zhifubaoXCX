@@ -31,7 +31,37 @@ Page({
         text: '退货先补',
         id: 4
       }
-    ]
+    ],
+    reco_goods: {
+      title: '推荐商品',
+      icon: '/resources/images/rec.png',
+      list: [
+        {
+          img_url: '/resources/images/1001.png',
+          id: 1
+        },
+        {
+          img_url: '/resources/images/1002.png',
+          id: 2
+        },
+        {
+          img_url: '/resources/images/1003.jpg',
+          id: 3
+        },
+        {
+          img_url: '/resources/images/1004.jpg',
+          id: 4
+        },
+        {
+          img_url: '/resources/images/1005.jpg',
+          id: 5
+        },
+        {
+          img_url: '/resources/images/1006.jpg',
+          id: 6
+        }
+      ]
+    }
   },
   onShow() {
     console.log('se')

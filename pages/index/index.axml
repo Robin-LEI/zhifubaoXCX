@@ -21,12 +21,27 @@
     </block>
   </swiper>
   <!-- 类型介绍 -->
-  <view class="type_intro">
+  <scroll-view class="type_intro" scroll-x="{{true}}">
     <view class="type_intro_item"
       a:for="{{typeIntroList}}"
     >
       <image mode="scaleToFill" src="{{item.icon}}"/>
       {{item.text}}
     </view>
+  </scroll-view>
+  <!-- 推荐商品 -->
+  <view class="reco_goods">
+    <view class="reco_goods_title">
+      <image mode="scaleToFill" src="{{reco_goods.icon}}"/>
+      {{reco_goods.title}}
+    </view>
+    <scroll-view
+      scroll-x="{{true}}"
+      class="scroll_view_box"
+    >
+      <block a:for="{{reco_goods.list}}">
+        <image class="rec_image" mode="scaleToFill" src="{{item.img_url}}"/>
+      </block>
+    </scroll-view>
   </view>
 </view>
