@@ -1,4 +1,11 @@
 page {
-  background: #f7f7f7;
+  background: #f2f5f8;
   box-sizing: border-box;
+}
+
+.ml-4 {
+  margin-left: 4rpx;
+}
+.mr-4 {
+  margin-right: 4rpx;
 }

@@ -44,4 +44,26 @@
       </block>
     </scroll-view>
   </view>
+  <!-- 商品上新 -->
+  <view class="new_goods">
+    <view class="item_title">
+      <image mode="scaleToFill" src="/resources/images/diamond.png"/>
+      商品上新
+    </view>
+    <view class="new_goods_list">
+      <view class="new_goods_item" a:for="{{new_goods_list}}">
+        <image mode="scaleToFill" src="{{item.img_url}}"/>
+        <view class="tag_wrapper">
+          <text class="tag" a:for="{{item.tags.slice(0, 5)}}" a:for-item="tagItem">{{tagItem.tagName}}</text>
+        </view>
+        <view class="price_wrapper">
+          <text class="price">&yen; {{item.price}}</text>
+          <view>
+            <text class="likes_num mr-4">{{item.likes}}</text>
+            <image mode="scaleToFill" src="/resources/images/likes.png"/>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
 </view>
