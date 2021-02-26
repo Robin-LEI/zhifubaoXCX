@@ -5,7 +5,8 @@
     "pages/mine/info/info",
     "pages/cart/cart",
     "pages/order/order",
-    "pages/category/category"
+    "pages/category/category",
+    "pages/test/test"
   ],
   "window": {
     "defaultTitle": "前端商城",
