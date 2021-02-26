@@ -1,0 +1,24 @@
+page {
+  display: flex;
+  flex-direction: column;
+}
+
+.swiper-item-img {
+  width: 750rpx;
+  height: 400rpx;
+}
+
+.type_intro {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  background-color: #fff;
+  color: #868585;
+  line-height: 36px;
+}
+.type_intro .type_intro_item image {
+  width: 12px;
+  height: 12px;
+  vertical-align: text-bottom;
+  margin-right: 4px;
+}

@@ -1,3 +1,32 @@
 <view>
-  
+  <!-- 首页轮播 -->
+  <swiper
+    indicator-dots="{{true}}" 
+    autoplay="{{true}}" 
+    indicator-active-color="#ff6699" 
+    interval="{{6000}}"
+  >
+    <block
+      a:for="{{swiperList}}" 
+      a:for-item="item" 
+      a:for-index="index"
+    >
+      <swiper-item>
+        <image
+          mode="scaleToFill"
+          src="{{item.img_url}}"
+          class="swiper-item-img"
+        />
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 类型介绍 -->
+  <view class="type_intro">
+    <view class="type_intro_item"
+      a:for="{{typeIntroList}}"
+    >
+      <image mode="scaleToFill" src="{{item.icon}}"/>
+      {{item.text}}
+    </view>
+  </view>
 </view>
