@@ -14,7 +14,7 @@
       <swiper-item>
         <image
           mode="scaleToFill"
-          src="{{item.img_url}}"
+          src="{{item.imageUrl}}"
           class="swiper-item-img"
         />
       </swiper-item>
@@ -40,7 +40,7 @@
       class="scroll_view_box"
     >
       <block a:for="{{reco_goods.list}}">
-        <image class="rec_image" mode="scaleToFill" src="{{item.img_url}}"/>
+        <image class="rec_image" mode="scaleToFill" src="{{item.imageUrl}}"/>
       </block>
     </scroll-view>
   </view>
